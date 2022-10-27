@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  	<script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-light navbar-light">
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="index.html">DIGITAL TALENT</a>
+
+	  <!-- Links -->
+	  <ul class="navbar-nav">
+	    <li class="nav-item">
+	      <a class="nav-link" href="index.html">Home</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">About</a>
+	    </li>
+
+	    <!-- Dropdown -->
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+	        Programming
+	      </a>
+	      <div class="dropdown-menu">
+	        <a class="dropdown-item" href="#">Html</a>
+	        <a class="dropdown-item" href="#">Css</a>
+	        <a class="dropdown-item" href="#">javascript</a>
+            <a class="dropdown-item" href="#">Poython</a>
+            <a class="dropdown-item" href="#">Php</a>
+	      </div>
+	    </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Software
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">A</a>
+	        <a class="dropdown-item" href="#">B</a>
+	        <a class="dropdown-item" href="#">C</a>
+            <a class="dropdown-item" href="#">D</a>
+            <a class="dropdown-item" href="#">E</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Contact Us</a>
+          </li>
+	  </ul>
+	</nav>
+    
+    <form>
+        <div class="container-fluid ">
+            <h2>DIGITAL TALENT :| Form Dengan Bootstrap</h2>
+            <div class="form-group row">
+                <label for="nama" class="col-sm-1 col-form-label">Nama Anda </label>
+                <div class="col-4">
+                    <input type="text" class="form-control" id="nama">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="alamat" class="col-sm-1 col-form-label">Alamat Anda</label>
+                <div class="col-4">
+                    <textarea class="form-control" rows="5" id="alamat"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="jeniskelamin" class="col-sm-1 col-form-label">Jenis Kelamin</label>
+                <div class="col-4">
+                    <select class="form-control" id="jeniskelamin">
+                        <option value="pria">Pria</option>
+                        <option value="wanita">Wanita</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="" class="col-sm-1 col-form-label"></label>
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary ">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
